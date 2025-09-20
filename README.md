@@ -1,10 +1,8 @@
 # Reto Técnico SQA - Automatización con Playwright
 
-Este proyecto implementa la solución para el **Reto Técnico de Automatización SQA** utilizando Playwright + TypeScript. La automatización está diseñada para validar la funcionalidad de la floristería **Mundo Flor** (https://www.floristeriamundoflor.com/) aplicando buenas prácticas de testing E2E.
+Este proyecto implementa la solución para el **Reto Técnico de Automatización SQA** utilizando Playwright + TypeScript. La automatización está diseñada para validar la funcionalidad de la floristería **Mundo Flor** (https://www.floristeriamundoflor.com/) segun todos los criterios establecidos y solicitados en la respectiva prueba.
 
-## Descripción del Reto
-
-### Objetivo
+## Objetivo
 Evaluar la capacidad para diseñar y construir pruebas E2E con Playwright + TypeScript, aplicando:
 - Buenas prácticas de programación
 - Estructura escalable y mantenible
@@ -92,13 +90,13 @@ reto-tecnico-SQA/
 ### Scripts NPM disponibles
 ```bash
 # Scripts principales (RECOMENDADOS)
-npm run test:scenarios         # Solo escenarios funcionales (RECOMENDADO)
+npm run test:scenarios         # Solo los escenarios funcionales
 npm run test:headed            # Ver navegación en tiempo real
 npm run test:debug             # Control manual paso a paso
 npm run test:ui                # Interfaz visual
 
 # Scripts completos (todos los tests)
-npm run test                   # Todos los tests (incluye demo y robustos)
+npm run test                   # Todos los tests
 
 # Scripts específicos
 npm run test:amor              # Solo escenario Amor
@@ -256,19 +254,5 @@ npx playwright show-report --port 9324
 - **Patrón POM** bien segmentado con fixtures
 - **Duración**: Implementado en tiempo razonable
 
-### Información de entrega:
-- **Repositorio**: [URL del repositorio público]
-- **Email de entrega**: talentosqa@sqasa.co
-- **Reporte adjunto**: Captura del reporte HTML con escenarios OK
 
-## Licencia
-
-ISC
-
----
-
-## Conclusión
-
-Este proyecto implementa una solución completa para el **Reto Técnico de Automatización SQA**, cumpliendo todos los requisitos obligatorios. La automatización está diseñada con buenas prácticas, es escalable, mantenible y proporciona reportes detallados para facilitar el debugging y la trazabilidad.
-
-**¡Listo para entrega! 🚀**
+## Muchas gracias. 
