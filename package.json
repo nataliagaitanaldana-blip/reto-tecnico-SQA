@@ -1,0 +1,40 @@
+{
+  "name": "reto-tecnico-sqa",
+  "version": "1.0.0",
+  "description": "Reto Técnico de Automatización SQA - Playwright + TypeScript para Floristería Mundo Flor",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "test:headed": "npx playwright test --headed",
+    "test:amor": "npx playwright test tests/e2e/amor.spec.ts",
+    "test:cumple": "npx playwright test tests/e2e/cumple.spec.ts",
+    "test:robust": "npx playwright test tests/e2e/robust-test.spec.ts",
+    "test:scenarios": "npx playwright test tests/e2e/amor.spec.ts tests/e2e/cumple.spec.ts --workers=1",
+    "report": "npx playwright show-report",
+    "install:browsers": "npx playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "e2e",
+    "typescript",
+    "sqa",
+    "retotecnico",
+    "floristeria"
+  ],
+  "author": "Candidato SQA",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0",
+    "playwright-core": "^1.55.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
